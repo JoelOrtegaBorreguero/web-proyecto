@@ -1,3 +1,27 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+}
+
+.l-contenido {
+    width: 1366px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border: 1px blue solid;
+    padding: 1em;
+}
+
+.l-encabezado {
+    background-color: red ;
+    position: absolute;
+    display: grid;
+}
+
+.l-encabezado-texto {
+    
 }
