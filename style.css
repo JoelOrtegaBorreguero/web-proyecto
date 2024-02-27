@@ -20,8 +20,10 @@
     background-color: red ;
     position: absolute;
     display: grid;
+    grid-template-columns: 500px 500px;
+    padding: 1em;
 }
 
 .l-encabezado-texto {
-    
+
 }
