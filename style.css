@@ -12,16 +12,28 @@
     bottom: 0px;
     left: 0px;
     right: 0px;
-    border: 1px blue solid;
+    background-color: rgb(155, 155, 255);    
     padding: 1em;
 }
 
 .l-encabezado {
+    padding-top: 10px;
     background-color: red ;
+    width: 500px;
+    height: 150px;
     position: absolute;
+    margin: auto;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.j-contenidos {
+    margin-top: 50px;
     display: grid;
-    grid-template-columns: 500px 500px;
-    padding: 1em;
+    grid-template-columns: 1fr 1fr;
 }
 
 .l-encabezado-texto {
