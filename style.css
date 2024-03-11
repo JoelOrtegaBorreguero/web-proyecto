@@ -56,6 +56,10 @@
     margin-bottom: 50px;
 }
 
+.j-menu-contenedor {
+    width: 1351px;
+}
+
 .j-menu-base {
     width: 1351px;
     display: flex;
@@ -75,4 +79,12 @@
 
 .j-menu-base li:hover {
     background-color: #c0c0c0;
+}
+
+.j-menu-nombre {
+    position: absolute;
+    top: 8px;
+    bottom: 0;
+    left: 1100px;
+    right: 0;
 }
