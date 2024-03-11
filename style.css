@@ -56,6 +56,7 @@
 }
 
 .j-menu-base {
+    width: 1351px;
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -69,4 +70,8 @@
 
 .j-menu-base li {
     padding: 5px;
+}
+
+.j-menu-base li:hover {
+    background-color: #c0c0c0;
 }
