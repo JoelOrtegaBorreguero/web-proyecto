@@ -58,6 +58,7 @@
 
 .j-menu-contenedor {
     width: 1351px;
+    padding: 0;
 }
 
 .j-menu-base {
@@ -74,11 +75,11 @@
 }
 
 .j-menu-base li {
-    padding: 5px;
+    padding: 0px;
 }
 
 .j-menu-base li:hover {
-    background-color: #c0c0c0;
+    background-color: #8d2e2e;
 }
 
 .j-menu-nombre {
