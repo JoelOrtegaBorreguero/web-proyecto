@@ -64,6 +64,14 @@
     width: 1351px;
 }
 
+menu style {
+    padding-left: 0px;
+}
+
+menu {
+    padding-left: 0px;
+}
+
 .j-menu-base {
     width: 1351px;
     display: flex;
