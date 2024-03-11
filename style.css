@@ -45,7 +45,7 @@
     padding-top: 25px;
     background-color: rgb(53, 53, 53);
     color: white;
-    height: 500px;
+    height: 250px;
     width: 1351px;
     text-align: center;
 }
@@ -53,4 +53,20 @@
 .j-index-categoria1 {
     margin-top: 50px;
     text-align: center;
+}
+
+.j-menu-base {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    border: solid 3px black;
+}
+
+.j-menu-base a {
+    color: black;
+    text-decoration: none;
+}
+
+.j-menu-base li {
+    padding: 5px;
 }
