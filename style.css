@@ -3,6 +3,7 @@
     font-family: 'Inter', sans-serif;
     margin: 0;
 }
+
 .j-nucleo {
     width: 1351px;
 }
@@ -61,7 +62,6 @@
 
 .j-menu-contenedor {
     width: 1351px;
-    padding: 0;
 }
 
 .j-menu-base {
@@ -78,11 +78,11 @@
 }
 
 .j-menu-base li {
-    padding: 0px;
+    padding: 5px;
 }
 
 .j-menu-base li:hover {
-    background-color: #8d2e2e;
+    background-color: #c0c0c0;
 }
 
 .j-menu-nombre {
