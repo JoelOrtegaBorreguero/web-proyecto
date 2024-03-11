@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
     margin: 0;
 }
 
@@ -38,4 +39,10 @@
 
 .l-encabezado-texto {
 
+}
+
+.j-footer {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    height: 500px;
 }
