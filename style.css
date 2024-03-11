@@ -5,7 +5,7 @@
 }
 
 .l-contenido {
-    width: 1366px;
+    width: 1351px;
     height: 400px;
     position: relative;
     margin: auto;
@@ -45,4 +45,6 @@
     background-color: rgb(53, 53, 53);
     color: white;
     height: 500px;
+    width: 1351px;
+    text-align: center;
 }
