@@ -42,9 +42,15 @@
 }
 
 .j-footer {
+    padding-top: 25px;
     background-color: rgb(53, 53, 53);
     color: white;
     height: 500px;
     width: 1351px;
+    text-align: center;
+}
+
+.j-index-categoria1 {
+    margin-top: 50px;
     text-align: center;
 }
