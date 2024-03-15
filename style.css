@@ -79,6 +79,7 @@ menu {
     flex-direction: row;
     list-style: none;
     border: solid 3px black;
+    padding: 0.2em;
 }
 
 .j-menu-base a {
@@ -88,10 +89,15 @@ menu {
 
 .j-menu-base li {
     padding: 5px;
+    background-color: white;
+    border-radius: 10em;
+    margin-left: 5px;
+    color: white;
 }
 
 .j-menu-base li:hover {
-    background-color: #c0c0c0;
+    background-color: black;
+    color: white;
 }
 
 .j-menu-nombre {
