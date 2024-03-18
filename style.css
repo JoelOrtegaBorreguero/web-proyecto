@@ -78,18 +78,18 @@ menu {
     display: flex;
     flex-direction: row;
     list-style: none;
-    border: solid 3px black;
+    background-color: rgb(143, 143, 143);
     padding: 0.2em;
 }
 
 .j-menu-base a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .j-menu-base li {
     padding: 5px;
-    background-color: white;
+    background-color: rgb(143, 143, 143);
     border-radius: 10em;
     margin-left: 5px;
     color: white;
