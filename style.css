@@ -100,65 +100,86 @@ menu {
     right: 0;
 }
 
-/* Estilos para la sección Quiénes Somos */
-.who-we-are-section {
-    background-color: #f9f9f9;
-    padding: 20px;
-}
 
-.who-we-are-section h2 {
-    color: #333;
-}
-
-/* Estilos para la sección Redes Sociales */
-.social-media-section {
-    background-color: #f0f0f0;
-    padding: 20px;
-}
-
-.social-media-section h2 {
-    color: #333;
-}
-
-.social-media-links {
-    list-style: none;
-    padding: 0;
-}
-
-.social-media-links li {
-    display: inline;
-    margin: 0 10px;
-}
-
-.social-media-links li a {
-    color: #333;
-    font-size: 24px;
-    text-decoration: none;
-}
-
-/* Estilos para el footer */
-footer {
-    background-color: #777;
-    color: #fff;
-    padding: 20px;
+/* FOOTER */
+.l-container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121214;
+    color: white;
+  }
+  
+  .l-logo-footer {
+    width: 140px;
+    margin: 0 auto; /* Center the logo horizontally */
+  }
+  
+  .l-contactanos {
     text-align: center;
-}
-
-.footer-links {
+  }
+  
+  .l-redes-sociales {
+    text-align: center;
+    margin: 0 auto; /* Center the social media section horizontally */
+  }
+  
+  .l-redes-sociales ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+  }
+  
+  .l-redes-sociales li {
+    margin-bottom: 10px;
 }
 
-.footer-links li {
-    display: inline;
-    margin-right: 10px;
+  .l-todos-derechos {
+    padding: 1em;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
+/* FOOTER */
 
-.footer-links li a {
-    color: #fff;
-    text-decoration: none;
-}
 
-.footer-links li a:hover {
-    text-decoration: underline;
-}
+
+/* SOBRE NOSOTROS */
+
+/* Estilo general del contenedor */
+.l-contenedor {
+    display: flex; /* Activa el modo flexbox */
+    flex-direction: row; /* Alinea los elementos en fila */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    padding-left: 400px;
+    background-color: 2922;
+    color: white;
+  }
+  
+  /* Estilo del div de texto */
+  .l-texto-about {
+    flex: 1; /* Ocupa el espacio disponible */
+    margin-right: 20px; /* Margen derecho */
+    animation: l-entrada-about 1s ease-in-out forwards;
+  }
+  
+  /* Estilo del div de la imagen */
+  .l-imagen-about {
+    padding-right: 400px;
+    width: auto; /* Ancho fijo para la imagen */
+    animation: l-entrada-about 1s ease-in-out forwards;
+  }
+
+  /* Estilos para la animación de entrada */
+  @keyframes l-entrada-about {
+    from {
+      opacity: 0; /* Comienza con opacidad 0 (transparente) */
+      transform: translateY(-50px); /* Se desplaza 50px hacia arriba */
+    }
+    to {
+      opacity: 1; /* Termina con opacidad 1 (opaco) */
+      transform: translateY(0); /* Vuelve a su posición original */
+    }
+  }
+
+  /* SOBRE NOSOTROS */
