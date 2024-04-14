@@ -4,8 +4,12 @@
     margin: 0;
 }
 
-.j-nucleo {
+.j-nucle {
     width: 1351px;
+}
+
+.j-nucleo {
+  width: 100%;
 }
 
 .l-contenido {
