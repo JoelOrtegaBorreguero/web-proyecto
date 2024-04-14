@@ -57,6 +57,32 @@
 }
 
 
+/* INDEX.HTML */
+.l-contenedor-index {
+  display: flex; /* Activa el modo flexbox */
+  flex-direction: row; /* Alinea los elementos en fila */
+  align-items: center; /* Alinea los elementos verticalmente al centro */
+  padding-left: 400px;
+  background-color: 2922;
+  color: white;
+  height: 600px;
+}
+
+.l-texto-index {
+  flex: 1; /* Ocupa el espacio disponible */
+  margin-right: 20px; /* Margen derecho */
+  animation: l-entrada-about 1s ease-in-out forwards;
+}
+
+.l-imagen-index {
+  padding-right: 400px;
+  width: auto; /* Ancho fijo para la imagen */
+  animation: l-entrada-about 1s ease-in-out forwards;
+}
+/* INDEX.HTML */
+
+
+
 /* MENU */
 .j-menu-contenedor {
   width: 100%;  z-index: -1;
@@ -136,7 +162,7 @@
 /* SOBRE NOSOTROS */
 
 /* Estilo general del contenedor */
-.l-contenedor {
+.l-contenedor-about {
     display: flex; /* Activa el modo flexbox */
     flex-direction: row; /* Alinea los elementos en fila */
     align-items: center; /* Alinea los elementos verticalmente al centro */
