@@ -5,7 +5,7 @@
 }
 
 .j-nucle {
-    width: 1351px;
+    width: 1366px;
 }
 
 .j-nucleo {
@@ -13,7 +13,7 @@
 }
 
 .l-contenido {
-    width: 1351px;
+    width: 1366px;
     height: 400px;
     position: relative;
     margin: auto;
@@ -61,10 +61,11 @@
   display: flex; /* Activa el modo flexbox */
   flex-direction: row; /* Alinea los elementos en fila */
   align-items: center; /* Alinea los elementos verticalmente al centro */
-  padding-left: 400px;
+  padding-left: 25%;
   background-color: 2922;
   color: white;
   height: 600px;
+  width: 100%;
 }
 
 .l-texto-index {
@@ -74,6 +75,7 @@
 }
 
 .l-imagen-index {
+  flex: 2;
   margin-left: -5%;
   animation: l-entrada-about 1s ease-in-out forwards;
 }
