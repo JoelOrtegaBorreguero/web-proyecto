@@ -75,8 +75,7 @@
 }
 
 .l-imagen-index {
-  padding-right: 400px;
-  width: auto; /* Ancho fijo para la imagen */
+  margin-left: -5%;
   animation: l-entrada-about 1s ease-in-out forwards;
 }
 /* INDEX.HTML */
