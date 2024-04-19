@@ -4,12 +4,9 @@
   margin: 0;
 }
 
-.j-nucle {
-  width: 1366px;
-}
-
 .j-nucleo {
   width: 100%;
+  z-index: 100;
 }
 
 .l-contenido {
@@ -169,7 +166,7 @@
 /* MENU */
 .j-menu-contenedor {
   width: 100%;
-  z-index: 1000; /* Set a higher z-index to ensure the menu stays on top */
+  z-index: 100;
 }
 
 .j-menu-base {
