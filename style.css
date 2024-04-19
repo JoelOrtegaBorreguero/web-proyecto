@@ -165,7 +165,7 @@
 /* MENU */
 .j-menu-contenedor {
   width: 100%;
-  z-index: 100000;
+  z-index: 100000; /* Set a high z-index */
 }
 
 .j-menu-base {
@@ -182,12 +182,13 @@
   left: 0; /* Keep your existing left position */
   width: 100%; /* Keep your existing width */
   opacity: 1; /* Keep your existing opacity */
-  transition: opacity 0.5s ease-in-out, transform 0.3s ease; /* Keep your existing transition */
+  transition: opacity 0.5s ease, transform 0.3s ease; /* Keep your existing transition */
+  transform: translateY(0); /* Initial position */
 }
 
 .j-menu-base.hidden {
-  transform: translateY(-100%); /* Keep your existing hidden state styles */
-  opacity: 0; /* Keep your existing hidden state styles */
+  transform: translateY(-100%); /* Hidden state transform */
+  opacity: 0; /* Hidden state opacity */
 }
 
 .j-menu-base a {
