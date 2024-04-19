@@ -1,14 +1,11 @@
-const stickyMenu = document.querySelector('.j-menu-base');
-let lastScrollPosition = 0; // To track scroll direction
+const menuBase = document.querySelector('.j-menu-base');
 
 window.addEventListener('scroll', function() {
-  const currentScrollPosition = window.scrollY;
+  const scrollY = window.scrollY; // Get the current scroll position
 
-  if (currentScrollPosition > lastScrollPosition) {
-    stickyMenu.classList.add('hidden');
+  if (scrollY > 0) {
+    menuBase.classList.add('scrolled');
   } else {
-    stickyMenu.classList.remove('hidden');
+    menuBase.classList.remove('scrolled');
   }
-
-  lastScrollPosition = currentScrollPosition;
 });

@@ -168,44 +168,43 @@
 /* MENU */
 .j-menu-contenedor {
   width: 100%;
-  z-index: -1;
+  z-index: 100; /* Set a higher z-index to ensure the menu stays on top */
 }
 
 .j-menu-base {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  background-color: black;
-  padding: 1em;
-  gap: 10px;
-  z-index: 2;
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  opacity: 1;
-  transition: opacity 0.5s ease-in-out, transform 0.3s ease;
+  display: flex; /* Keep your existing display property */
+  flex-direction: row; /* Keep your existing flex direction */
+  justify-content: center; /* Keep your existing justify-content */
+  align-items: center; /* Keep your existing align-items */
+  list-style: none; /* Keep your existing list-style */
+  background-color: black; /* Keep your existing background color */
+  padding: 1em; /* Keep your existing padding */
+  gap: 10px; /* Keep your existing gap */
+  position: fixed; /* Use fixed positioning for the menu */
+  top: 0; /* Keep your existing top position */
+  left: 0; /* Keep your existing left position */
+  width: 100%; /* Keep your existing width */
+  opacity: 1; /* Keep your existing opacity */
+  transition: opacity 0.5s ease-in-out, transform 0.3s ease; /* Keep your existing transition */
 }
 
 .j-menu-base.hidden {
-  transform: translateY(-100%);
-  opacity: 0;
+  transform: translateY(-100%); /* Keep your existing hidden state styles */
+  opacity: 0; /* Keep your existing hidden state styles */
 }
 
 .j-menu-base a {
-  color: white;
-  text-decoration: none;
-  position: relative;
-  overflow: hidden;
-  padding: 10px;
-  border-radius: 10em;
+  color: white; /* Keep your existing text color */
+  text-decoration: none; /* Keep your existing text decoration */
+  position: relative; /* Keep your existing relative positioning */
+  overflow: hidden; /* Keep your existing overflow property */
+  padding: 10px; /* Keep your existing padding */
+  border-radius: 10em; /* Keep your existing border radius */
 }
 
 .j-menu-base a:hover {
-  background-color: white;
-  color: black;
+  background-color: white; /* Keep your existing hover background color */
+  color: black; /* Keep your existing hover text color */
 }
 /* MENU */
 
