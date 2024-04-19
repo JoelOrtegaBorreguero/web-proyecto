@@ -168,7 +168,7 @@
 /* MENU */
 .j-menu-contenedor {
   width: 100%;
-  z-index: 100; /* Set a higher z-index to ensure the menu stays on top */
+  z-index: 1000; /* Set a higher z-index to ensure the menu stays on top */
 }
 
 .j-menu-base {
