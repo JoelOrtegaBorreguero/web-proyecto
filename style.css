@@ -166,7 +166,7 @@
 /* MENU */
 .j-menu-contenedor {
   width: 100%;
-  z-index: 100;
+  z-index: 100000;
 }
 
 .j-menu-base {
