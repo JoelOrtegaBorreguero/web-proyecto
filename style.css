@@ -181,7 +181,7 @@
   padding: 1em;
   gap: 10px;
   z-index: 2;
-  position: fixed;  /* Make the menu fixed at the top */
+  position: sticky;  /* Make the menu fixed at the top */
   top: 0;
   left: 0;
   width: 100%;  /* Span the full width */
