@@ -169,6 +169,7 @@
 .j-menu-contenedor {
   width: 100%;
   z-index: 100; /* Set a higher z-index to ensure the menu stays on top */
+  position: fixed; /* Use fixed positioning for the menu */
 }
 
 .j-menu-base {
@@ -180,7 +181,6 @@
   background-color: black; /* Keep your existing background color */
   padding: 1em; /* Keep your existing padding */
   gap: 10px; /* Keep your existing gap */
-  position: fixed; /* Use fixed positioning for the menu */
   top: 0; /* Keep your existing top position */
   left: 0; /* Keep your existing left position */
   width: 100%; /* Keep your existing width */
