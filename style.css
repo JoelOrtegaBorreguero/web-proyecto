@@ -338,5 +338,6 @@
 /* NO TOCAR */
 menu {
   padding: 0;
+  position: sticky;
 }
 /* NO TOCAR */
