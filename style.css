@@ -135,7 +135,7 @@
 }
 
 .l-grande-index-3 {
-  width: 60%; /* Adjust width as needed */
+  width: 60%;
   padding: 20px;
 }
 
@@ -144,12 +144,12 @@
   margin-bottom: 15px;
   font-size: 20px;
   font-weight: bold;
-  color: #333; /* Text color */
+  color: #333; 
 }
 
 .l-grande-index-3 p {
   line-height: 1.6;
-  color: #666; /* Text color */
+  color: #666;
 }
 
 .l-grande-index-3 a.read-more {
@@ -174,24 +174,24 @@
 .j-menu-base {
   display: flex;
   flex-direction: row;
-  justify-content: center;  /* Adjust to right-align */
+  justify-content: center;
   align-items: center;
   list-style: none;
   background-color: black;
   padding: 1em;
   gap: 10px;
   z-index: 2;
-  position: sticky;  /* Make the menu fixed at the top */
+  position: sticky;
   top: 0;
   left: 0;
-  width: 100%;  /* Span the full width */
-  opacity: 1;  /* Initially visible */
-  transition: opacity 0.5s ease-in-out, transform 0.3s ease; /* Add transition properties */
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out, transform 0.3s ease;
 }
 
-.j-menu-base.hidden {  /* New class for hidden state */
-  transform: translateY(-100%);  /* Slide up to hidden position */
-  opacity: 0;  /* Fade out */
+.j-menu-base.hidden {
+  transform: translateY(-100%);
+  opacity: 0;
 }
 
 .j-menu-base a {
