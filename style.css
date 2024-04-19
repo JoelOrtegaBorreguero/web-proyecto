@@ -196,35 +196,6 @@
   background-color: white;
   color: black;
 }
-
-/* Add styles for the cart icon (optional) */
-.j-cart-icon {
-  /* Style the cart icon element here */
-}
-
-.j-cart-icon a {
-  /* Style the link inside the cart icon here */
-}
-
-.j-menu-pros {
-  color: white;
-  position: absolute;
-  top: 3%;
-  bottom: 0;
-  left: 95%;
-  right: 0;
-}
-
-.j-cart-icon i {
-  /* Style the Font Awesome icon here */
-  font-size: 20px; /* Adjust font size as needed */
-  color: white; /* Adjust color as needed */
-}
-
-.j-cart-icon a:hover {
-  background-color: white;
-  color: black;
-}
 /* MENU */
 
 
