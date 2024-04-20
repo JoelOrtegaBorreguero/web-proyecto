@@ -156,7 +156,6 @@
   text-decoration: none;
   margin-top: 15px;
 }
-
 /* INDEX.HTML */
 
 
@@ -207,28 +206,59 @@
 
 /* FOOTER */
 .l-container-footer {
-  display: flex; /* Main container remains flexbox */
-  justify-content: space-between; /* Align items on opposite sides */
-  align-items: flex-start; /* Content within sections can be top-aligned */
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  align-items: flex-start;
   background-color: #121214;
   color: white;
-}
-
-.l-footer-info { /* New container for logo, contact, and social media */
-  display: flex; /* Make this a flexbox container */
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center; /* Center elements horizontally */
+  padding: 25px;
 }
 
 .l-logo-footer {
   width: 140px;
-  margin: 0 auto 1em; /* Add some margin below the logo */
 }
 
-.l-contactanos,
-.l-redes-sociales { /* Target both sections with same styles */
-  text-align: center; /* Removed margin as elements are centered in parent */
-  margin: 0; /* Removed margin for better spacing within flex container */
+.l-servicios-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.l-titulo-servicios {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.l-cuadraditos {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.l-servicio-footer {
+  background-color: #121214;
+  text-align: left;
+  align-items: center;
+  padding: 10px;
+  margin: 2px;
+  font-size: 0.95em;
+}
+
+.l-servicio-footer:hover {
+  background-color: #2922;
+  color: white;
+}
+
+.l-contactanos {
+  text-align: center;
+  margin: 5px;
+}
+
+.l-redes-sociales {
+  margin: 5px;
+  text-align: center;
 }
 
 .l-redes-sociales ul {
@@ -241,11 +271,11 @@
   margin-bottom: 10px;
 }
 
-.l-copyright { /* Styles for copyright section */
+.l-todos-derechos {
   padding: 1em;
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: #f2f2f2;
+  color: black;
 }
 /* FOOTER */
 
