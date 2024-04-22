@@ -207,6 +207,7 @@
 
 .has-submenu:hover .submenu {  
   display: block;
+  border-radius: 0em;
 }
 
 .submenu {
