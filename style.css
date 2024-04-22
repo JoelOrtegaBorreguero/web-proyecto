@@ -362,6 +362,34 @@
 }
 /* SOBRE NOSOTROS */
 
+/* SOPORTE */
+.l-contenedor-soporte {
+  text-align: center;
+  font-size: 3em;
+  background-color: 2922;
+  color: white;
+  height: 600px;
+  width: 100%;
+}
+
+.l-texto-soporte {
+  padding: 1em;
+  animation: l-entrada-about 1s ease-in-out forwards;
+}
+
+.l-imagen-soporte {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 400px;
+  height: 300px;
+  animation: l-entrada-about 1s ease-in-out forwards;
+}
+/* SOPORTE */
+
 
 /* NO TOCAR */
 menu {
