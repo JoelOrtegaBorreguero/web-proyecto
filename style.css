@@ -201,6 +201,39 @@
   background-color: white;
   color: black;
 }
+
+.has-submenu {
+  position: relative;  }
+
+.has-submenu:hover .submenu {  
+  display: block;
+}
+
+.submenu {
+  display: none;
+  position: absolute;  
+  top: 150%;
+  left: 0;  
+  background-color: black;
+  list-style: none;
+  padding: 0;  
+  color: black;
+  border-radius: 10em;
+}
+
+.submenu li {
+  padding: 10px 0px;
+}
+
+.submenu a {
+  color: white;
+}
+
+.submenu a:hover {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
 /* MENU */
 
 

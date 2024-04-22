@@ -7,14 +7,20 @@
 </head>
 <body>
 
-<div class="j-menu-contenedor">
-  <ul class="j-menu-base">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">Sobre Nosotros</a></li>
-    <li><a href="productos.html">Productos</a></li>
-    <li><a href="soporte.html">Soporte</a></li>
-  </ul>
-</div>
+  <div class="j-menu-contenedor">
+    <ul class="j-menu-base">
+      <li class="has-submenu"> <a href="index.html">Home</a>
+        <ul class="submenu">  <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">Sobre Nosotros</a></li>
+      <li><a href="productos.html">Productos</a></li>
+      <li class="has-submenu"> <a href="soporte.html">Soporte</a>
+        <ul class="submenu">  <li><a href="manual.html">Manual</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
 
 <script src="script-menu.js"></script>
 </body>
