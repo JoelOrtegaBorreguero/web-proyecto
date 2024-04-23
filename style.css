@@ -461,6 +461,80 @@
 /* SOPORTE */
 
 
+/* PRODUCTOS */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+#contenedor-principal {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.subtitulo {
+  color: #007bff;
+}
+
+.banner {
+  background-image: url("banner-fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+}
+
+.texto-banner {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.boton-banner {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.productos {
+  padding: 20px;
+}
+
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.producto {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.producto img {
+  width: 100
+/* PRODUCTOS */
+
+
+
 /* NO TOCAR */
 menu {
   padding: 0;
