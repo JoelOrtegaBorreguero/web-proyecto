@@ -220,6 +220,7 @@
   right: 0;
   height: 60px;
   background-color: black;
+  z-index: 100;
   list-style-type: none;
 }
 
