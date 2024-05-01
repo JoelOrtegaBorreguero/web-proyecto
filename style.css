@@ -531,8 +531,33 @@ header {
 
 .producto img {
   width: 100
+}
 /* PRODUCTOS */
 
+/* BLOG */
+
+.l-contenedor-blog {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 26%;
+  padding-right: 16%;
+  background-color: 2922;
+  color: white;
+  height: 600px;
+  width: 100%;
+}
+
+.l-texto-blog {
+  flex: 3;
+  animation: l-entrada-about 1s ease-in-out forwards;
+}
+
+.l-imagen-blog {
+  flex: 2;
+  animation: l-entrada-about 1s ease-in-out forwards;
+}
+/* BLOG */
 
 
 /* NO TOCAR */
