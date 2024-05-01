@@ -228,6 +228,7 @@
 .has-submenu-1 {
   position: relative;  
 }
+
 .has-submenu-1:hover .submenu-1 {  
   display: block;
   border-radius: 0em;
