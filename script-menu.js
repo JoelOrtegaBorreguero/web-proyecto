@@ -1,16 +1,12 @@
-const menuBase = document.querySelector('.j-menu-base');
+const menu = document.querySelector('.j-menu-base');
+let prevScrollPos = window.pageYOffset;
 
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      menuBase.classList.remove('hidden');
-    } else {
-      menuBase.classList.add('hidden');
-    }
-  });
-}, {
-  root: null,
-  threshold: 0,
-});
-
-observer.observe(menuBase);
+window.onscroll = function() {
+  const currentScrollPos = window.pageYOffset;
+  if (prevScrollPos > currentScrollPos) {
+    menu.classList.remove('hidden'); // Show menu on scroll up
+  } else {
+    menu.classList.add('hidden'); // Hide menu on scroll down
+  }
+  prevScrollPos = currentScrollPos;
+};
