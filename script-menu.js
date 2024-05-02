@@ -1,4 +1,4 @@
-const menu = document.querySelector('.j-menu-base');
+const menu = document.querySelector('menu');
 let prevScrollPos = window.pageYOffset;
 
 window.onscroll = function() {
