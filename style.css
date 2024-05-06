@@ -610,6 +610,32 @@ header {
     /* styles for hamburger menu button */
   }
 }
+
+@media screen and (max-width: 768px) {
+  .l-container-footer {
+    flex-direction: column; /* Stack elements vertically */
+    gap: 0; /* Remove gap between elements */
+    padding: 15px; /* Add some padding */
+  }
+
+  .l-servicios-footer,
+  .l-contactanos,
+  .l-redes-sociales {
+    width: 100%; /* Make each section full width */
+    margin-bottom: 10px; /* Add spacing between sections */
+  }
+
+  .l-cuadraditos {
+    flex-direction: row; /* Align service icons horizontally */
+    justify-content: center; /* Center service icons horizontally */
+    margin: 10px auto; /* Add margin around service icons */
+  }
+
+  .l-servicio-footer {
+    width: auto; /* Adjust service icon width automatically */
+  }
+}
+
 /* NO TOCAR */
 menu {
   padding: 0;
