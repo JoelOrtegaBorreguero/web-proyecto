@@ -257,6 +257,7 @@
   display: flex;
   flex-direction: column;
   margin: 0px;
+  text-decoration: none;
 }
 
 .l-servicio-footer {
@@ -266,6 +267,7 @@
   padding: 10px;
   margin: 2px;
   font-size: 0.95em;
+  text-decoration: none;
 }
 
 .l-servicio-footer:hover {
