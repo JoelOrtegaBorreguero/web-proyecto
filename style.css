@@ -537,6 +537,34 @@ header {
   flex: 2;
   animation: l-entrada-about 1s ease-in-out forwards;
 }
+
+.l-blog-section-f {
+  padding: 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.l-blog-container-f {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.l-blog-post-f {
+  width: 90%;
+  height: 600px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.l-blog-post-f img {
+  height: 30%;
+}
 /* BLOG */
 
 /* Target screens between 640px and 1024px */
