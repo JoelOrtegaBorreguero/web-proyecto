@@ -128,6 +128,22 @@
   animation: l-entrada-about 1s ease-in-out forwards;
 }
 
+.l-blog-post h2 {
+  animation: rebote 0.5s ease-in-out alternate;
+}
+
+@keyframes rebote {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 /* INDEX.HTML */
 
 
