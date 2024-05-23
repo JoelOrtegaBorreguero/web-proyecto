@@ -474,6 +474,48 @@
   height: 300px;
   animation: l-entrada-about 1s ease-in-out forwards;
 }
+
+.support-section {
+  background-color: #f2f2f2;
+  padding: 40px;
+  margin: 40px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.methods-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Alineación vertical al principio */
+}
+
+.methods, .contact {
+  width: 45%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+h2, h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex; /* Contenedor en línea para el icono y el texto */
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+li img {
+  width: 30px; /* Tamaño de los iconos */
+  margin-right: 15px; /* Espacio entre el icono y el texto */
+}
 /* SOPORTE */
 
 
@@ -581,6 +623,35 @@
   height: 30%;
 }
 /* BLOG */
+
+
+/* MANUAL */
+.container-soporte {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+
+.text-div {
+  width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.text-div h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.text-div p {
+  line-height: 1.5;
+}
+/* MANUAL */
 
 @media screen and (min-width: 640px) and (max-width: 1024px) {
   .l-contenedor-index {
