@@ -607,8 +607,7 @@
 .container-soporte {
   position: relative;
   margin: 0 auto;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding: 1em;
 }
 
 .text-div-m {
