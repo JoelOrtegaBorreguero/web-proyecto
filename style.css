@@ -605,16 +605,15 @@
 
 /* MANUAL */
 .container-soporte {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 80%;
+  position: relative;
   margin: 0 auto;
   padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .text-div-m {
-  width: 600px;
+  margin: 0 auto;
+  width: 800px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
