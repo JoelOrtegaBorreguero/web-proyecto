@@ -879,7 +879,6 @@
 }
 
 /* Pantallas pequeñas (smartphones, retrato) */
-@media (max-width: 767px) {
   .l-contenedor-blog {
     padding-left: 5%;
     padding-right: 5%;
@@ -900,23 +899,20 @@
   .l-blog-post-f {
     width: 90%;
   }
-}
+
 
 /* Pantallas medianas (tabletas, retrato) */
-@media (min-width: 768px) and (max-width: 1023px) {
-  .l-contenedor-blog {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
+.l-contenedor-blog {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 /* Pantallas grandes (escritorios) */
-@media (min-width: 1024px) {
   .l-contenedor-blog {
     padding-left: 15%;
     padding-right: 15%;
   }
-}
+
 
 /* NO TOCAR */
 menu {
